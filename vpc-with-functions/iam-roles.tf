@@ -4,10 +4,10 @@ locals {
     "arn:aws:iam:policy/AmazonEKSServicePolicy"
   ]
   node_policies = [
-    "arn:aws:iam::aws:policy/AmazonEKSWorkersNodePolicy",
+    "arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy",
     "arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy",
     "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly",
-    "arn:aws:iam::aws:policy/AmazonEC2sFullAccess"
+    "arn:aws:iam::aws:policy/AmazonEC2FullAccess"
   ]
 
 }
