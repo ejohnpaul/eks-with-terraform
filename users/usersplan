@@ -1,0 +1,24 @@
+[0m[1mdata.aws_iam_policy_document.developer: Reading...[0m[0m
+[0m[1maws_iam_group.eks_developer: Refreshing state... [id=Developer][0m
+[0m[1mdata.aws_iam_policy_document.admin: Reading...[0m[0m
+[0m[1maws_iam_user.eks_user[0]: Refreshing state... [id=developer][0m
+[0m[1maws_iam_user.eks_user[1]: Refreshing state... [id=manager][0m
+[0m[1mdata.aws_caller_identity.current: Reading...[0m[0m
+[0m[1maws_iam_account_password_policy.strict: Refreshing state... [id=iam-account-password-policy][0m
+[0m[1mdata.aws_iam_policy_document.admin: Read complete after 0s [id=236601581][0m
+[0m[1mdata.aws_iam_policy_document.developer: Read complete after 0s [id=3146063397][0m
+[0m[1maws_iam_policy.eks_admin: Refreshing state... [id=arn:aws:iam::738912370945:policy/eks-admin][0m
+[0m[1mdata.aws_caller_identity.current: Read complete after 1s [id=738912370945][0m
+[0m[1mdata.aws_iam_policy_document.manager_assume_role: Reading...[0m[0m
+[0m[1mdata.aws_iam_policy_document.manager_assume_role: Read complete after 0s [id=1337641227][0m
+[0m[1maws_iam_role.managers: Refreshing state... [id=Manager-eks-Role][0m
+[0m[1maws_iam_user_login_profile.DB_user[1]: Refreshing state... [id=manager][0m
+[0m[1maws_iam_user_login_profile.DB_user[0]: Refreshing state... [id=developer][0m
+[0m[1maws_iam_group_policy.developer_policy: Refreshing state... [id=Developer:developer][0m
+[0m[1maws_iam_group_membership.db_team: Refreshing state... [id=dev-group-membership][0m
+[0m[1maws_iam_role_policy_attachment.admin_policy: Refreshing state... [id=Manager-eks-Role-20230828233439117100000001][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
