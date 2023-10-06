@@ -1,13 +1,9 @@
-Stopping operation...
-
-Interrupt received.
-Please wait for Terraform to exit or data loss may occur.
-Gracefully shutting down...
-
-aws_iam_policy_document.eks_assume_role: Reading...[0m[0m
+[0m[1mdata.external.vpc_name: Reading...[0m[0m
+[0m[1mdata.external.vpc_name: Read complete after 1s [id=-][0m
 [0m[1mdata.aws_iam_policy_document.nodes: Reading...[0m[0m
-[0m[1mdata.aws_iam_policy_document.eks_assume_role: Read complete after 0s [id=542123937][0m
+[0m[1mdata.aws_iam_policy_document.eks_assume_role: Reading...[0m[0m
 [0m[1mdata.aws_iam_policy_document.nodes: Read complete after 0s [id=1516362680][0m
+[0m[1mdata.aws_iam_policy_document.eks_assume_role: Read complete after 0s [id=542123937][0m
 
 Terraform used the selected providers to generate the following execution
 plan. Resource actions are indicated with the following symbols:
@@ -397,10 +393,10 @@ Terraform will perform the following actions:
       [32m+[0m[0m main_route_table_id                  = (known after apply)
       [32m+[0m[0m owner_id                             = (known after apply)
       [32m+[0m[0m tags                                 = {
-          [32m+[0m[0m "Name" = "vpc-1693265671"
+          [32m+[0m[0m "Name" = "vpc-1694449722"
         }
       [32m+[0m[0m tags_all                             = {
-          [32m+[0m[0m "Name" = "vpc-1693265671"
+          [32m+[0m[0m "Name" = "vpc-1694449722"
         }
     }
 
