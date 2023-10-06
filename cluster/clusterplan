@@ -98,10 +98,10 @@ Terraform will perform the following actions:
           [32m+[0m[0m endpoint_public_access    = true
           [32m+[0m[0m public_access_cidrs       = (known after apply)
           [32m+[0m[0m subnet_ids                = [
-              [32m+[0m[0m "subnet-03335bb8ea0133026",
-              [32m+[0m[0m "subnet-0828104b9f635320e",
-              [32m+[0m[0m "subnet-0b3f6c33c72624d20",
-              [32m+[0m[0m "subnet-0b9fe534cc134a05e",
+              [32m+[0m[0m "subnet-00db0196a71587d26",
+              [32m+[0m[0m "subnet-032b92139b457ac00",
+              [32m+[0m[0m "subnet-048767996fb86bf6d",
+              [32m+[0m[0m "subnet-0d400de01619d2e5f",
             ]
           [32m+[0m[0m vpc_id                    = (known after apply)
         }
@@ -128,16 +128,16 @@ Terraform will perform the following actions:
       [32m+[0m[0m resources              = (known after apply)
       [32m+[0m[0m status                 = (known after apply)
       [32m+[0m[0m subnet_ids             = [
-          [32m+[0m[0m "subnet-03335bb8ea0133026",
-          [32m+[0m[0m "subnet-0b3f6c33c72624d20",
+          [32m+[0m[0m "subnet-048767996fb86bf6d",
+          [32m+[0m[0m "subnet-0d400de01619d2e5f",
         ]
       [32m+[0m[0m tags                   = {
           [32m+[0m[0m "k8s.io/cluster-autoscaler/demo"    = "owned"
-          [32m+[0m[0m "k8s.io/cluster-autoscaler/enabled" = "false"
+          [32m+[0m[0m "k8s.io/cluster-autoscaler/enabled" = "true"
         }
       [32m+[0m[0m tags_all               = {
           [32m+[0m[0m "k8s.io/cluster-autoscaler/demo"    = "owned"
-          [32m+[0m[0m "k8s.io/cluster-autoscaler/enabled" = "false"
+          [32m+[0m[0m "k8s.io/cluster-autoscaler/enabled" = "true"
           [32m+[0m[0m "team"                              = "DevOps"
         }
       [32m+[0m[0m version                = (known after apply)
